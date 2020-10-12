@@ -1,5 +1,6 @@
 using Genie.Router
+using TasksController
 
 route("/") do
-  serve_static_file("welcome.html")
+  route("/", TasksController.tasksToComplete)
 end

@@ -1,0 +1,9 @@
+<h1>Tasks to Complete</h1>
+
+
+
+<ul>
+  <% @foreach(tasks) do task %>
+    <li>$(task.body)-- $(task.completed ? "Done" : "Pending")</li>
+  <% end %>
+</ul>
