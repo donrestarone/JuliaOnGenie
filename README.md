@@ -31,4 +31,14 @@ to start the Genie server
 bin/repl
 $julia> up()
 ```
+
+add database support
+```bash
+$julia> Genie.Generator.db_support()
+```
+
+generate controller
+```bash
+$julia> Genie.newcontroller("Tasks")
+```
   
