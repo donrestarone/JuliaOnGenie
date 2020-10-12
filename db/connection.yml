@@ -1,0 +1,28 @@
+env: ENV["GENIE_ENV"]
+
+dev:
+  adapter: postgresql
+  database: hello_genie_development
+  host: localhost
+  username: genie_postgres
+  password: genie
+  port: 5432
+  config:
+
+prod:
+  adapter:
+  database:
+  host:
+  username:
+  password:
+  port:
+  config:
+
+test:
+  adapter:
+  database:
+  host:
+  username:
+  password:
+  port:
+  config:
